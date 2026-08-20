@@ -14,7 +14,7 @@ docker build -t react-ci/cd .
 docker run -d --name react -p 80:80 react-ci/cd
 
 # Tag image
-docker tag react-ci/cd vishwak24/cicd:ci-cd
+docker tag react-ci/cd vishwak24/cicd
 
 # Push image to Docker Hub
-docker push vishwak24/cicd:ci-cd
+docker push vishwak24/cicd
